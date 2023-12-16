@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import {useState} from "react";
-import google from '@/assets/google.png'
+import google from '../../assets/google.png'
 
 export default function RegisterPage() {
   const [email, setEmail] = useState('');
