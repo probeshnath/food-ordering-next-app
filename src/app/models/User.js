@@ -16,9 +16,9 @@ const UserSchema = new Schema({
   image: {type: String},
 }, {timestamps: true});
 
-UserSchema.pre('save', (next, ...rest) =>{
-  console.log(rest)
-  next()
-})
+// UserSchema.pre('save', (next, ...rest) =>{
+//   console.log(rest)
+//   next()
+// })
 
 export const User = models?.User || model('User', UserSchema);

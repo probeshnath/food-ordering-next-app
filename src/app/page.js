@@ -14,7 +14,7 @@ const Home = () => {
         <SectionHeaders subHeader={'Our story'} mainHeader={'About Us'} />
 
         <div className="text-gray-500 max-w-md mx-auto mt-8 flex flex-col gap-4">
-          <p className=" ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eum rem temporibus magni possimus illo velit sapiente minus alias nemo sunt placeat, soluta pariatur distinctio repudiandae dolorum, amet culpa qui?</p>
+          <p className=" ">This is header section where i can do any item change. Atque eum rem temporibus magni possimus illo velit sapiente minus alias nemo sunt placeat, soluta pariatur distinctio repudiandae dolorum, amet </p>
           <p className=" ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eum rem temporibus magni possimus illo velit sapiente minus alias nemo sunt placeat, soluta pariatur distinctio repudiandae dolorum, amet culpa qui?</p>
           <p className=" ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eum rem temporibus magni possimus illo velit sapiente minus alias nemo sunt placeat, soluta pariatur distinctio repudiandae dolorum, amet culpa qui?</p>
         </div>
